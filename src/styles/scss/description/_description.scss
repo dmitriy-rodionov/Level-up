@@ -1,0 +1,36 @@
+.description {
+    padding: 100px 0 70px 0;
+    background: linear-gradient(0deg, #696eff,#f6a9ff);
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        padding: 0 30px;
+        font-size: 27px;
+        line-height: 55px;
+        font-weight: 700;
+        color: rgb(85, 85, 85);
+        text-align: center;
+    }
+    &__characteristics {
+        margin-top: 30px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    &__characteristic {
+        margin-left: 40px;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        // color: #555;
+        color: #F8F6FA;
+        opacity: 0.7;
+    }
+    &__btn {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
